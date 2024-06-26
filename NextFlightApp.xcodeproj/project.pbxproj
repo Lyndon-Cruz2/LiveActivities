@@ -1,0 +1,541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6703F4B62C2A5CA50036D9A0 /* NextFlightAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703F4B52C2A5CA50036D9A0 /* NextFlightAppApp.swift */; };
+		6703F4B82C2A5CA50036D9A0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703F4B72C2A5CA50036D9A0 /* ContentView.swift */; };
+		6703F4BA2C2A5CA60036D9A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6703F4B92C2A5CA60036D9A0 /* Assets.xcassets */; };
+		6703F4BD2C2A5CA60036D9A0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6703F4BC2C2A5CA60036D9A0 /* Preview Assets.xcassets */; };
+		6703F4CA2C2A5CD50036D9A0 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6703F4C92C2A5CD40036D9A0 /* WidgetKit.framework */; };
+		6703F4CC2C2A5CD50036D9A0 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6703F4CB2C2A5CD50036D9A0 /* SwiftUI.framework */; };
+		6703F4CF2C2A5CD50036D9A0 /* NextFlightWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703F4CE2C2A5CD50036D9A0 /* NextFlightWidgetBundle.swift */; };
+		6703F4D12C2A5CD50036D9A0 /* NextFlightWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703F4D02C2A5CD50036D9A0 /* NextFlightWidgetLiveActivity.swift */; };
+		6703F4D32C2A5CD50036D9A0 /* NextFlightWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703F4D22C2A5CD50036D9A0 /* NextFlightWidget.swift */; };
+		6703F4D52C2A5CD50036D9A0 /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703F4D42C2A5CD50036D9A0 /* AppIntent.swift */; };
+		6703F4D72C2A5CD70036D9A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6703F4D62C2A5CD70036D9A0 /* Assets.xcassets */; };
+		6703F4DB2C2A5CD70036D9A0 /* NextFlightWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 6703F4C72C2A5CD40036D9A0 /* NextFlightWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6703F4E52C2A63260036D9A0 /* NextFlightAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703F4E42C2A63260036D9A0 /* NextFlightAttributes.swift */; };
+		6703F4E62C2A691E0036D9A0 /* NextFlightAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6703F4E42C2A63260036D9A0 /* NextFlightAttributes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6703F4D92C2A5CD70036D9A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6703F4AA2C2A5CA40036D9A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6703F4C62C2A5CD40036D9A0;
+			remoteInfo = NextFlightWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6703F4DF2C2A5CD70036D9A0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6703F4DB2C2A5CD70036D9A0 /* NextFlightWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6703F4B22C2A5CA50036D9A0 /* NextFlightApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NextFlightApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6703F4B52C2A5CA50036D9A0 /* NextFlightAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextFlightAppApp.swift; sourceTree = "<group>"; };
+		6703F4B72C2A5CA50036D9A0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6703F4B92C2A5CA60036D9A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6703F4BC2C2A5CA60036D9A0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6703F4C72C2A5CD40036D9A0 /* NextFlightWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NextFlightWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6703F4C92C2A5CD40036D9A0 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6703F4CB2C2A5CD50036D9A0 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6703F4CE2C2A5CD50036D9A0 /* NextFlightWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextFlightWidgetBundle.swift; sourceTree = "<group>"; };
+		6703F4D02C2A5CD50036D9A0 /* NextFlightWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextFlightWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		6703F4D22C2A5CD50036D9A0 /* NextFlightWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextFlightWidget.swift; sourceTree = "<group>"; };
+		6703F4D42C2A5CD50036D9A0 /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		6703F4D62C2A5CD70036D9A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6703F4D82C2A5CD70036D9A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6703F4E42C2A63260036D9A0 /* NextFlightAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextFlightAttributes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6703F4AF2C2A5CA50036D9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6703F4C42C2A5CD40036D9A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6703F4CC2C2A5CD50036D9A0 /* SwiftUI.framework in Frameworks */,
+				6703F4CA2C2A5CD50036D9A0 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6703F4A92C2A5CA40036D9A0 = {
+			isa = PBXGroup;
+			children = (
+				6703F4B42C2A5CA50036D9A0 /* NextFlightApp */,
+				6703F4CD2C2A5CD50036D9A0 /* NextFlightWidget */,
+				6703F4C82C2A5CD40036D9A0 /* Frameworks */,
+				6703F4B32C2A5CA50036D9A0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6703F4B32C2A5CA50036D9A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6703F4B22C2A5CA50036D9A0 /* NextFlightApp.app */,
+				6703F4C72C2A5CD40036D9A0 /* NextFlightWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6703F4B42C2A5CA50036D9A0 /* NextFlightApp */ = {
+			isa = PBXGroup;
+			children = (
+				6703F4B52C2A5CA50036D9A0 /* NextFlightAppApp.swift */,
+				6703F4B72C2A5CA50036D9A0 /* ContentView.swift */,
+				6703F4B92C2A5CA60036D9A0 /* Assets.xcassets */,
+				6703F4BB2C2A5CA60036D9A0 /* Preview Content */,
+				6703F4E42C2A63260036D9A0 /* NextFlightAttributes.swift */,
+			);
+			path = NextFlightApp;
+			sourceTree = "<group>";
+		};
+		6703F4BB2C2A5CA60036D9A0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6703F4BC2C2A5CA60036D9A0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6703F4C82C2A5CD40036D9A0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6703F4C92C2A5CD40036D9A0 /* WidgetKit.framework */,
+				6703F4CB2C2A5CD50036D9A0 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6703F4CD2C2A5CD50036D9A0 /* NextFlightWidget */ = {
+			isa = PBXGroup;
+			children = (
+				6703F4CE2C2A5CD50036D9A0 /* NextFlightWidgetBundle.swift */,
+				6703F4D02C2A5CD50036D9A0 /* NextFlightWidgetLiveActivity.swift */,
+				6703F4D22C2A5CD50036D9A0 /* NextFlightWidget.swift */,
+				6703F4D42C2A5CD50036D9A0 /* AppIntent.swift */,
+				6703F4D62C2A5CD70036D9A0 /* Assets.xcassets */,
+				6703F4D82C2A5CD70036D9A0 /* Info.plist */,
+			);
+			path = NextFlightWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6703F4B12C2A5CA50036D9A0 /* NextFlightApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6703F4C02C2A5CA60036D9A0 /* Build configuration list for PBXNativeTarget "NextFlightApp" */;
+			buildPhases = (
+				6703F4AE2C2A5CA50036D9A0 /* Sources */,
+				6703F4AF2C2A5CA50036D9A0 /* Frameworks */,
+				6703F4B02C2A5CA50036D9A0 /* Resources */,
+				6703F4DF2C2A5CD70036D9A0 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6703F4DA2C2A5CD70036D9A0 /* PBXTargetDependency */,
+			);
+			name = NextFlightApp;
+			productName = NextFlightApp;
+			productReference = 6703F4B22C2A5CA50036D9A0 /* NextFlightApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6703F4C62C2A5CD40036D9A0 /* NextFlightWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6703F4DC2C2A5CD70036D9A0 /* Build configuration list for PBXNativeTarget "NextFlightWidgetExtension" */;
+			buildPhases = (
+				6703F4C32C2A5CD40036D9A0 /* Sources */,
+				6703F4C42C2A5CD40036D9A0 /* Frameworks */,
+				6703F4C52C2A5CD40036D9A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NextFlightWidgetExtension;
+			productName = NextFlightWidgetExtension;
+			productReference = 6703F4C72C2A5CD40036D9A0 /* NextFlightWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6703F4AA2C2A5CA40036D9A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					6703F4B12C2A5CA50036D9A0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					6703F4C62C2A5CD40036D9A0 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 6703F4AD2C2A5CA50036D9A0 /* Build configuration list for PBXProject "NextFlightApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6703F4A92C2A5CA40036D9A0;
+			productRefGroup = 6703F4B32C2A5CA50036D9A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6703F4B12C2A5CA50036D9A0 /* NextFlightApp */,
+				6703F4C62C2A5CD40036D9A0 /* NextFlightWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6703F4B02C2A5CA50036D9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6703F4BD2C2A5CA60036D9A0 /* Preview Assets.xcassets in Resources */,
+				6703F4BA2C2A5CA60036D9A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6703F4C52C2A5CD40036D9A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6703F4D72C2A5CD70036D9A0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6703F4AE2C2A5CA50036D9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6703F4B82C2A5CA50036D9A0 /* ContentView.swift in Sources */,
+				6703F4B62C2A5CA50036D9A0 /* NextFlightAppApp.swift in Sources */,
+				6703F4E52C2A63260036D9A0 /* NextFlightAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6703F4C32C2A5CD40036D9A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6703F4CF2C2A5CD50036D9A0 /* NextFlightWidgetBundle.swift in Sources */,
+				6703F4D52C2A5CD50036D9A0 /* AppIntent.swift in Sources */,
+				6703F4D12C2A5CD50036D9A0 /* NextFlightWidgetLiveActivity.swift in Sources */,
+				6703F4D32C2A5CD50036D9A0 /* NextFlightWidget.swift in Sources */,
+				6703F4E62C2A691E0036D9A0 /* NextFlightAttributes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6703F4DA2C2A5CD70036D9A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6703F4C62C2A5CD40036D9A0 /* NextFlightWidgetExtension */;
+			targetProxy = 6703F4D92C2A5CD70036D9A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6703F4BE2C2A5CA60036D9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6703F4BF2C2A5CA60036D9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6703F4C12C2A5CA60036D9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NextFlightApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NextFlightApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6703F4C22C2A5CA60036D9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NextFlightApp/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSSupportsLiveActivitiesFrequentUpdates = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NextFlightApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6703F4DD2C2A5CD70036D9A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NextFlightWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NextFlightWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NextFlightApp.NextFlightWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6703F4DE2C2A5CD70036D9A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NextFlightWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NextFlightWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.NextFlightApp.NextFlightWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6703F4AD2C2A5CA50036D9A0 /* Build configuration list for PBXProject "NextFlightApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6703F4BE2C2A5CA60036D9A0 /* Debug */,
+				6703F4BF2C2A5CA60036D9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6703F4C02C2A5CA60036D9A0 /* Build configuration list for PBXNativeTarget "NextFlightApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6703F4C12C2A5CA60036D9A0 /* Debug */,
+				6703F4C22C2A5CA60036D9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6703F4DC2C2A5CD70036D9A0 /* Build configuration list for PBXNativeTarget "NextFlightWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6703F4DD2C2A5CD70036D9A0 /* Debug */,
+				6703F4DE2C2A5CD70036D9A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6703F4AA2C2A5CA40036D9A0 /* Project object */;
+}
